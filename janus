@@ -4,10 +4,12 @@
 #	zekeriya@zekeriyaay.com
 #
 
-source colors.sh
+JPATH=$(echo "${PATH//:/$'\n'}" | grep janus)
+
+source $JPATH/colors
 
 printf "${BIYellow}"
-cat ./assets/janus-icon
+cat $JPATH/assets/janusLogo
 printf "${RESET}"
 
 printf "\t   ${BIWhite}Zekeriya AY <zekeriya@zekeriyaay.com>${RESET}\n\n"
