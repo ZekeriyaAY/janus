@@ -9,10 +9,14 @@
 ```ps1
 foo@bar:/opt$ git clone https://github.com/ZekeriyaAY/janus.git
 ```
-#### 2. Okuma ve çalıştırma yetkisi ver
+#### ~~2. Okuma ve çalıştırma yetkisi ver~~
+<strike>
+
 ```ps1
 foo@bar:/opt$ sudo chmod +xr janus -R
 ```
+</strike>
+
 #### 3. PATH'e ekle
 ```shell
 export PATH="$PATH:/indirilen/reponun/yolu"
